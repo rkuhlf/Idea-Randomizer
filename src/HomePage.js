@@ -10,8 +10,9 @@ class HomePage extends Component {
         <p>
           Struggling with creativity?
           <br />
-          <Link to="/edit?list=newList">Create a new list</Link> or use a
-          pregenerated one to help you come up with ideas.
+          <Link to="/edit?list=newList">Create a new list</Link> or{" "}
+          <Link to="/generatePage">use a some already create lists</Link> to
+          help you come up with ideas.
         </p>
       </div>
     );
